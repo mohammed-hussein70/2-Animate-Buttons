@@ -1,0 +1,48 @@
+.press {
+  border: none;
+  padding: 15px 40px;
+  background-color: #04aa6d;
+  font-size: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 10px #999;
+  &:hover {
+    background-color: #3e8e41;
+  }
+  &:active {
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+  }
+}
+.In,
+.out {
+  border: none;
+  padding: 15px 40px;
+  background-color: #04aa6d;
+  font-size: 40px;
+  opacity: 0.5;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.In:hover {
+  opacity: 1;
+}
+.out {
+  opacity: 1;
+}
+.out:hover {
+  opacity: 0.5;
+}
+.Fade {
+  border: none;
+  padding: 15px 50px;
+  background-color: #ddd;
+  font-size: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.Fade:hover {
+  background-color: #04aa6d;
+}
